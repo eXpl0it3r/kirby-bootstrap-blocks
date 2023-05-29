@@ -1,5 +1,5 @@
 name: Bootstrap Alert
-icon: bolt
+icon: alert
 fields:
   alertType:
     type: select

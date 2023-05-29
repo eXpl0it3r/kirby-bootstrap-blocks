@@ -52,6 +52,13 @@ git submodule add https://github.com/eXpl0it3r/kirby-bootstrap-blocks.git site/p
 
 _Not supported currently_
 
+## Develop
+
+If you want to contribute to the plugin, you can run the following commands within the plugin directory:
+
+- `npm dev` - Watch the src/\* files and build on any detected change
+- `npm build ` - Build the src/\* files once
+
 ## Credits
 
 - Build with the [Custom Block Type](https://getkirby.com/docs/cookbook/panel/custom-block-type) Cookbook article
