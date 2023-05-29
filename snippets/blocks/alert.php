@@ -1,0 +1,1 @@
+<div class="alert alert-<?= $block->alerttype() ?> <?= $block->dismissible()->toBool() == true ? "alert-dismissible" : "" ?>"><?= $block->text() ?></div>

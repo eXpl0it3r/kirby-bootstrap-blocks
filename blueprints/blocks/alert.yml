@@ -1,0 +1,23 @@
+name: Bootstrap Alert
+icon: bolt
+fields:
+  alertType:
+    type: select
+    label: "Alert Type:"
+    options:
+      success: Success
+      info: Info
+      warning: Warning
+      danger: Danger
+    required: true
+    width: 1/2
+  dismissible:
+    type: toggle
+    label: "Dismissible?"
+    width: 1/2
+  text:
+    type: writer
+    label: "Alert content"
+    marks:
+      - bold
+      - italic
