@@ -1,0 +1,13 @@
+{
+    "name": "expl0it3r/kirby-bootstrap-blocks",
+    "description": "Bootstrap Components as Kirby 3 Blocks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas Dürrenberger",
+            "email": "eXpl0it3r@my-gate.net"
+        }
+    ],
+    "require": {}
+}
