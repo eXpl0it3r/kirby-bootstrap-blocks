@@ -23,3 +23,9 @@ fields:
   caption:
     type: text
     label: "Caption"
+    width: 1/2
+  class:
+    type: text
+    label: "CSS class"
+    help: Additional classes of the table, separated by spaces
+    width: 1/2

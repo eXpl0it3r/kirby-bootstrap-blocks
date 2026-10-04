@@ -13,9 +13,13 @@ foreach ($block->styles()->split() as $style) {
         $classes[] = $styles[$style];
     }
 }
+
+foreach (preg_split('/\s+/', $block->class()->value(), -1, PREG_SPLIT_NO_EMPTY) as $class) {
+    $classes[] = $class;
+}
 ?>
 <div class="table-responsive">
-    <table class="<?= implode(' ', $classes) ?>">
+    <table<?= attr(['class' => implode(' ', $classes)], ' ') ?>>
         <?php if ($block->caption()->isNotEmpty()) : ?>
             <caption><?= $block->caption()->kti() ?></caption>
         <?php endif; ?>
