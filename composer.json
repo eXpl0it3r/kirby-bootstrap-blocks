@@ -1,7 +1,7 @@
 {
     "name": "expl0it3r/kirby-bootstrap-blocks",
-    "description": "Bootstrap Components as Kirby 3 Blocks",
-    "type": "library",
+    "description": "Bootstrap Components as Kirby Blocks",
+    "type": "kirby-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -9,5 +9,8 @@
             "email": "eXpl0it3r@my-gate.net"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.1",
+        "getkirby/composer-installer": "^1.2"
+    }
 }
