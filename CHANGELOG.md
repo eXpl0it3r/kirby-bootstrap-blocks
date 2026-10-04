@@ -12,6 +12,8 @@ Switches the alerts to Bootstrap 5.3. Sites that still use Bootstrap 3.4 should 
 
 - Use the Bootstrap 5 markup for the alerts, i.e. `btn-close`, `data-bs-dismiss`, `fade show` and `role="alert"`
 - Use the Bootstrap 5 colors in the Panel preview
+- Pick the alert type with toggles instead of a dropdown, which can be unreadable in the dark mode of Kirby 5
+- More spacing around and inside the Panel preview
 - Screenshot in the README with all alert types
 
 ### Removed
