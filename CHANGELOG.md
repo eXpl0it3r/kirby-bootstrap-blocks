@@ -1,5 +1,23 @@
 # Changelog
 
+## Unreleased
+
+Switches the alerts to Bootstrap 5.3. Sites that still use Bootstrap 3.4 should stay on version 1.x.
+
+### Added
+
+- Primary, secondary, light and dark alert types
+
+### Changed
+
+- Use the Bootstrap 5 markup for the alerts, i.e. `btn-close`, `data-bs-dismiss`, `fade show` and `role="alert"`
+- Use the Bootstrap 5 colors in the Panel preview
+- Screenshot in the README with all alert types
+
+### Removed
+
+- Support for Bootstrap 3.4
+
 ## [1.1.0](https://github.com/eXpl0it3r/kirby-bootstrap-blocks/compare/1.0.0...1.1.0) - 2026-10-04
 
 ### Added
