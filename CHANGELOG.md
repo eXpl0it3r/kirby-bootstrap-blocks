@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [2.0.0](https://github.com/eXpl0it3r/kirby-bootstrap-blocks/compare/1.1.0...2.0.0) - 2026-10-04
 
 Switches the alerts to Bootstrap 5.3. Sites that still use Bootstrap 3.4 should stay on version 1.x.
 
