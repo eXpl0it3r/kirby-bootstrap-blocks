@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [1.1.0](https://github.com/eXpl0it3r/kirby-bootstrap-blocks/compare/1.0.0...1.1.0) - 2026-10-04
 
 ### Added
 
