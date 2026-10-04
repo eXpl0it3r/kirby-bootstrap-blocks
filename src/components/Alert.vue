@@ -21,10 +21,14 @@
 <script>
 // The colors of the Bootstrap 5.3 alerts, so the preview looks like the alert on the site
 const colorMappings = {
+  primary: { background: "#cfe2ff", border: "#9ec5fe", text: "#052c65" },
+  secondary: { background: "#e2e3e5", border: "#c4c8cb", text: "#2b2f32" },
   success: { background: "#d1e7dd", border: "#a3cfbb", text: "#0a3622" },
   danger: { background: "#f8d7da", border: "#f1aeb5", text: "#58151c" },
   warning: { background: "#fff3cd", border: "#ffe69c", text: "#664d03" },
   info: { background: "#cff4fc", border: "#9eeaf9", text: "#055160" },
+  light: { background: "#fcfcfd", border: "#e9ecef", text: "#495057" },
+  dark: { background: "#ced4da", border: "#adb5bd", text: "#495057" },
 };
 
 export default {

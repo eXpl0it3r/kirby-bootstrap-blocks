@@ -5,10 +5,14 @@ fields:
     type: select
     label: "Alert Type:"
     options:
+      primary: Primary
+      secondary: Secondary
       success: Success
-      info: Info
-      warning: Warning
       danger: Danger
+      warning: Warning
+      info: Info
+      light: Light
+      dark: Dark
     required: true
     width: 1/2
   dismissible:
