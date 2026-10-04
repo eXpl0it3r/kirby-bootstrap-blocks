@@ -2,6 +2,7 @@
   <k-block-figure
     :style="{
       backgroundColor: computedBackgroundColor,
+      color: computedColor,
     }"
   >
     <div
