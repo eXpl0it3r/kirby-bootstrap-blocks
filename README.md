@@ -1,20 +1,20 @@
 # Bootstrap Blocks
 
-A [Kirby](https://getkirby.com/) plugin implementing [Bootstrap Components](https://getbootstrap.com/docs/3.4/components/) as [Blocks](https://getkirby.com/docs/reference/panel/blocks).
+A [Kirby](https://getkirby.com/) plugin implementing [Bootstrap Components](https://getbootstrap.com/docs/5.3/components/) as [Blocks](https://getkirby.com/docs/reference/panel/blocks).
 
-![The Panel showing alert blocks in the four Bootstrap colors](screenshot.png)
+![The Panel showing alert blocks in the eight Bootstrap colors](screenshot.png)
 
 ## Requirements
 
 - Kirby 3.10, 4 or 5
 - PHP 8.1 or newer, note that Kirby 5 needs PHP 8.2
-- Bootstrap 3.4, which your site has to load itself (CSS and JS)
+- Bootstrap 5.3, which your site has to load itself (CSS and JS)
 
-The snippets use the class names of Bootstrap 3.4. Newer Bootstrap versions renamed a few of them, e.g. the close button, as such they aren't supported for now.
+Version 2.0 switched from Bootstrap 3.4 to 5.3, which renamed a few classes, e.g. the close button. If your site still uses Bootstrap 3.4, stay on version 1.x of the plugin.
 
 ## Supported Components
 
-- [Alerts](https://getbootstrap.com/docs/3.4/components/#alerts)
+- [Alerts](https://getbootstrap.com/docs/5.3/components/alerts/)
 
 ## Installation
 
@@ -51,7 +51,7 @@ fields:
       - alert
 ```
 
-An alert has a type (success, info, warning or danger), can be dismissible and its text supports bold and italic. The dismiss button uses Bootstrap's `data-dismiss="alert"`, as such it needs Bootstrap's JavaScript.
+An alert has a type (primary, secondary, success, danger, warning, info, light or dark), can be dismissible and its text supports bold and italic. The dismiss button uses Bootstrap's `data-bs-dismiss="alert"`, as such it needs Bootstrap's JavaScript.
 
 ## Development
 
