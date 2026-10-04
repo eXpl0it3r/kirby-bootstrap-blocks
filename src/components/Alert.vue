@@ -6,6 +6,7 @@
       color: colors.text,
       margin: '0.375rem 0',
     }"
+    @open="open"
   >
     <div
       :style="{
