@@ -1,0 +1,25 @@
+name: Bootstrap Table
+icon: table
+fields:
+  rows:
+    type: bootstrap-table
+    label: "Table"
+    help: Cells support KirbyTags and Markdown. Pasting several cells from a spreadsheet fills the table from that cell on.
+  header:
+    type: toggle
+    label: "First row is the header?"
+    default: true
+    width: 1/2
+  styles:
+    type: checkboxes
+    label: "Style"
+    columns: 2
+    options:
+      striped: Striped
+      hover: Hover
+      bordered: Bordered
+      small: Small
+    width: 1/2
+  caption:
+    type: text
+    label: "Caption"
