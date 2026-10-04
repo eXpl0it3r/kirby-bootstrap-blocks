@@ -12,7 +12,7 @@
       }"
     >
       <k-icon type="alert" :color="computedColor"></k-icon>
-      <p v-html="content.text"></p>
+      <div v-html="content.text"></div>
     </div>
   </k-block-figure>
 </template>
