@@ -4,7 +4,7 @@
 
 ### Added
 
-- Table block with a grid editor, which supports pasting from spreadsheets, KirbyTags and Markdown in the cells, a header row, a caption and the striped, hover, bordered and small styles
+- Table block with a grid editor, which supports pasting from spreadsheets, KirbyTags and Markdown in the cells, a header row, a caption, an optional CSS class and the striped, hover, bordered and small styles
 
 ### Fixed
 

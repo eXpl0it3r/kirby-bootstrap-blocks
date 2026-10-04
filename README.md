@@ -55,7 +55,7 @@ fields:
 
 An alert has a type (primary, secondary, success, danger, warning, info, light or dark), can be dismissible and its text supports bold and italic. The dismiss button uses Bootstrap's `data-bs-dismiss="alert"`, as such it needs Bootstrap's JavaScript.
 
-A table is edited in a grid of cells, where rows and columns can be added and removed. Pasting several cells from a spreadsheet fills the grid from the current cell on and adds rows and columns as needed. The cells support KirbyTags and Markdown, the first row can be the header and the table can be striped, hover, bordered or small. Tables are always wrapped in `table-responsive`, so wide tables scroll on small screens.
+A table is edited in a grid of cells, where rows and columns can be added and removed. Pasting several cells from a spreadsheet fills the grid from the current cell on and adds rows and columns as needed. The cells support KirbyTags and Markdown, the first row can be the header and the table can be striped, hover, bordered or small. Additional CSS classes can be set for the table, e.g. for styles of your site. Tables are always wrapped in `table-responsive`, so wide tables scroll on small screens.
 
 Note that the block is called `bootstrap-table`, since Kirby already has a `table` block type, which is used for the table preview of other blocks.
 
