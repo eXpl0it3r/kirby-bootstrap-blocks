@@ -4,12 +4,15 @@
       backgroundColor: colors.background,
       border: `1px solid ${colors.border}`,
       color: colors.text,
+      margin: '0.375rem 0',
     }"
   >
     <div
       :style="{
         display: 'flex',
+        alignItems: 'center',
         gap: '1em',
+        padding: '0.625rem 0.75rem',
       }"
     >
       <k-icon type="alert" :color="colors.text"></k-icon>
