@@ -2,7 +2,7 @@ name: Bootstrap Alert
 icon: alert
 fields:
   alertType:
-    type: select
+    type: toggles
     label: "Alert Type:"
     options:
       primary: Primary
@@ -14,11 +14,9 @@ fields:
       light: Light
       dark: Dark
     required: true
-    width: 1/2
   dismissible:
     type: toggle
     label: "Dismissible?"
-    width: 1/2
   text:
     type: writer
     label: "Alert content"
