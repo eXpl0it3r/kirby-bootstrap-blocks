@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Table block with a grid editor, which supports pasting from spreadsheets, KirbyTags and Markdown in the cells, a header row, a caption and the striped, hover, bordered and small styles
+
+### Fixed
+
+- Open the drawer of the alert block on double click
+
 ## [2.0.0](https://github.com/eXpl0it3r/kirby-bootstrap-blocks/compare/1.1.0...2.0.0) - 2026-10-04
 
 Switches the alerts to Bootstrap 5.3. Sites that still use Bootstrap 3.4 should stay on version 1.x.
